@@ -5,3 +5,6 @@ parameters:
     excludePaths:
         - 'vendor/**.php'
         - '**/spec/**.php'
+
+    ignoreErrors:
+        - '/Attribute class App\\Validator\\Constraints\\UniqueAppUserEmail does not exist\./'

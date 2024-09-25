@@ -9,22 +9,22 @@
         "lchrusciel/api-test-case": "^5.1",
         "lexik/jwt-authentication-bundle": "^2.14",
         "gesdinet/jwt-refresh-token-bundle": "^1.0",
-        "monofony/api-contracts": "^0.11@dev",
-        "monofony/api-meta": "^0.11@dev",
-        "monofony/core-contracts": "^0.11@dev",
-        "monofony/core-meta": "^0.11@dev",
+        "monofony/api-contracts": "^0.11",
+        "monofony/api-meta": "^0.11",
+        "monofony/core-contracts": "^0.11",
+        "monofony/core-meta": "^0.11",
         "phpstan/phpstan": "^1.5",
         "psr/event-dispatcher": "^1.0",
-        "sylius/resource": "^1.10 || dev-poc-new-resource-metadata",
-        "sylius/user": "^1.12",
-        "sylius/user-bundle": "^1.12",
-        "symfony/messenger": "^6.1",
-        "zenstruck/foundry": "^1.14"
+        "sylius/resource": "^1.10",
+        "sylius/user": "^2.0@alpha",
+        "sylius/user-bundle": "^2.0@alpha",
+        "symfony/messenger": "^6.4 || ^7.1",
+        "zenstruck/foundry": "^1.38"
     },
     "require-dev": {
         "lchrusciel/api-test-case": "^5.1",
         "phpstan/phpstan": "^1.5",
-        "zenstruck/foundry": "^1.14"
+        "zenstruck/foundry": "^1.38"
     },
     "autoload-dev": {
         "psr-4": {
@@ -45,7 +45,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "0.10-dev"
+            "dev-master": "0.11-dev"
         }
     }
 }
